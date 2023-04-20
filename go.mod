@@ -4,7 +4,6 @@ go 1.19
 
 require (
 	google.golang.org/grpc v1.54.0
-	google.golang.org/grpc/examples v0.0.0-20230419175434-2cd95c7514a3
 	google.golang.org/protobuf v1.30.0
 )
 
