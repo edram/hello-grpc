@@ -1,0 +1,20 @@
+{
+  "name": "greeter_node_client",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "tsx index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "grpc-tools": "^1.12.4",
+    "tsx": "^3.12.6",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "@grpc/grpc-js": "^1.8.14",
+    "@grpc/proto-loader": "^0.7.6"
+  }
+}
