@@ -1,0 +1,26 @@
+{
+  "name": "greeter_node_buf_client",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "generate": "buf generate",
+    "start": "tsx index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@bufbuild/connect": "^0.8.6",
+    "@bufbuild/connect-node": "^0.8.6",
+    "@bufbuild/protobuf": "^1.2.0"
+  },
+  "devDependencies": {
+    "@bufbuild/buf": "1.15.0-1",
+    "@bufbuild/protoc-gen-connect-es": "^0.8.6",
+    "@bufbuild/protoc-gen-es": "^1.2.0",
+    "tsx": "^3.12.7",
+    "typescript": "^5.0.4"
+  }
+}
